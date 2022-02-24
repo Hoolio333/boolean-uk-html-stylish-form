@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  margin-top: 300px;
+  scroll-behavior: smooth;
+  background: rgb(61, 164, 189);
+  background: linear-gradient(
+    103deg,
+    rgba(61, 164, 189, 1) 0%,
+    rgba(121, 9, 98, 1) 44%,
+    rgba(191, 65, 240, 1) 100%
+  );
+  min-height: 100vh;
+}
+
+.center-wrapper {
+  max-width: 800px;
+  max-height: fit-content;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+}

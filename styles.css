@@ -81,6 +81,13 @@ button {
   font-size: 2rem;
 }
 
-input {
+input,
+select {
   font-size: 1.5rem;
+}
+
+input::placeholder {
+  color: rgb(60, 255, 0);
+  font-size: 1.2em;
+  font-style: italic;
 }

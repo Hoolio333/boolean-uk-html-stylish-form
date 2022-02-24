@@ -15,6 +15,7 @@ body {
     rgba(121, 9, 98, 1) 44%,
     rgba(191, 65, 240, 1) 100%
   );
+  min-height: 100vh;
 }
 
 form {
@@ -23,6 +24,8 @@ form {
   margin-top: 100px;
   justify-content: center;
   justify-items: center;
+  height: auto;
+  width: auto;
 }
 
 .gap-md {
@@ -30,7 +33,8 @@ form {
 }
 
 .center-wrapper {
-  max-width: 600px;
+  max-width: 800px;
+  max-height: fit-content;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -38,11 +42,17 @@ form {
 
 h1 {
   text-align: center;
+  font-size: 4rem;
 }
 
 .form-grid {
   display: grid;
   grid-auto-flow: row;
+}
+
+label {
+  color: red;
+  font-size: 2rem;
 }
 
 form {
@@ -63,4 +73,9 @@ button {
   );
   color: white;
   margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+input {
+  font-size: 1.5rem;
 }
